@@ -2133,7 +2133,7 @@
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R1"
-			(at 0 1.43 360)
+			(at 0 1.43 0)
 			(layer "B.SilkS")
 			(uuid "bd52756e-8240-4433-9911-cded91de8328")
 			(effects
@@ -2145,7 +2145,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 0 -1.43 360)
+			(at 0 -1.43 0)
 			(layer "B.Fab")
 			(uuid "6cb38119-85b3-4d3e-8df4-8181c06adab7")
 			(effects
@@ -2301,7 +2301,7 @@
 			(uuid "45bfe614-b1d1-46d3-a8f0-abc4d580920e")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(uuid "e301824a-6175-4849-82e5-b7ab7fc63263")
 			(effects
@@ -2648,7 +2648,7 @@
 		(descr "Inductor, Vishay, IHLP series, 6.3mmx6.3mm")
 		(tags "inductor vishay ihlp smd")
 		(property "Reference" "L1"
-			(at 0 4.175 360)
+			(at 0 4.175 0)
 			(layer "B.SilkS")
 			(uuid "25f019ab-26a5-468a-be86-3b0a63631574")
 			(effects
@@ -2660,7 +2660,7 @@
 			)
 		)
 		(property "Value" "L"
-			(at 0 -4.675 360)
+			(at 0 -4.675 0)
 			(layer "B.Fab")
 			(uuid "e3d0f806-7152-4315-8723-4bd744dace6a")
 			(effects
@@ -2856,7 +2856,7 @@
 			(uuid "a7b1a1cd-9684-4067-9303-0a3926fd91ac")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(uuid "2f19f8c4-226a-4f95-9bb8-948c29136439")
 			(effects
@@ -3120,7 +3120,7 @@
 		(descr "Capacitor SMD 1210 (3225 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor handsolder")
 		(property "Reference" "C1"
-			(at 0 2.3 360)
+			(at 0 2.3 0)
 			(layer "B.SilkS")
 			(uuid "04e421d4-ab07-4af9-a6b5-6509c1b0c430")
 			(effects
@@ -3132,7 +3132,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 0 -2.3 360)
+			(at 0 -2.3 0)
 			(layer "B.Fab")
 			(uuid "d411bdc2-35af-4d75-99b0-443300bce5d1")
 			(effects
@@ -3288,7 +3288,7 @@
 			(uuid "8d4deb71-38bc-445d-b352-33b813622266")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(uuid "3977d887-acfb-456a-add4-7027be2896bc")
 			(effects
