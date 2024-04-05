@@ -1876,17 +1876,15 @@
 		(color 0 0 0 0)
 		(uuid "e5aa6ac3-f493-4893-84ce-9b490f28de3d")
 	)
+	(junction
+		(at 66.04 90.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e8aecf54-06f2-44b5-bed4-ff198f4e82bc")
+	)
 	(no_connect
 		(at 85.09 110.49)
 		(uuid "46194d15-e4d4-42fa-ab09-7f033f552296")
-	)
-	(no_connect
-		(at 85.09 100.33)
-		(uuid "668b8479-3125-4788-87b0-10455e19ff6b")
-	)
-	(no_connect
-		(at 63.5 100.33)
-		(uuid "694148f1-cb9a-4312-a993-cf4d5fd9e1d0")
 	)
 	(wire
 		(pts
@@ -2057,6 +2055,16 @@
 			(type default)
 		)
 		(uuid "4062a5b5-2e77-4227-9788-c4a5b7717713")
+	)
+	(wire
+		(pts
+			(xy 80.01 100.33) (xy 80.01 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d4e84f6-662c-4779-80f8-50214c1518ff")
 	)
 	(wire
 		(pts
@@ -2320,6 +2328,16 @@
 	)
 	(wire
 		(pts
+			(xy 66.04 100.33) (xy 66.04 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "978daaf2-e329-42de-9861-5a3cc918f3d9")
+	)
+	(wire
+		(pts
 			(xy 80.01 107.95) (xy 85.09 107.95)
 		)
 		(stroke
@@ -2327,6 +2345,16 @@
 			(type default)
 		)
 		(uuid "9a44e5a9-5dee-41d8-8c45-c37456796fa5")
+	)
+	(wire
+		(pts
+			(xy 85.09 100.33) (xy 80.01 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a677ab4-324c-4d66-b208-79d65f866964")
 	)
 	(wire
 		(pts
@@ -2357,6 +2385,16 @@
 			(type default)
 		)
 		(uuid "acb34a1b-1e09-4031-8f8f-9d2851547f64")
+	)
+	(wire
+		(pts
+			(xy 80.01 90.17) (xy 82.55 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae0ac6a6-54e9-4cfe-a30e-f40588ce5ccd")
 	)
 	(wire
 		(pts
@@ -2417,6 +2455,16 @@
 			(type default)
 		)
 		(uuid "be92b82a-d394-4032-9dc6-d02dae25abb5")
+	)
+	(wire
+		(pts
+			(xy 63.5 100.33) (xy 66.04 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c3b5c885-c017-4276-a00c-64880677fbb3")
 	)
 	(wire
 		(pts
@@ -3773,7 +3821,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
+		(property "Footprint" "LED_THT:LED_D5.0mm"
 			(at 181.61 113.03 0)
 			(effects
 				(font
@@ -4140,7 +4188,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_THT:C_Rect_L7.0mm_W2.0mm_P5.00mm"
 			(at 151.13 65.0748 0)
 			(effects
 				(font
