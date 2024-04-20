@@ -1881,7 +1881,7 @@
 			)
 		)
 		(property "Value" "PMBT3906.235"
-			(at 0 -2.5 360)
+			(at 0 -2.5 0)
 			(layer "B.Fab")
 			(uuid "e4de23ec-f90a-4ddb-a41a-34a5193d1c17")
 			(effects
@@ -2148,7 +2148,7 @@
 		(descr "SOT-23, Handsoldering")
 		(tags "SOT-23")
 		(property "Reference" "Q3"
-			(at 1.8 -1.5 360)
+			(at 1.8 -1.5 0)
 			(layer "B.SilkS")
 			(uuid "92ada799-f725-408e-8bd7-ad0661e9c4a2")
 			(effects
@@ -2160,7 +2160,7 @@
 			)
 		)
 		(property "Value" "PMBT3906.235"
-			(at 0 -2.5 360)
+			(at 0 -2.5 0)
 			(layer "B.Fab")
 			(uuid "4518465b-8410-4531-aca4-a1bffd033e44")
 			(effects
