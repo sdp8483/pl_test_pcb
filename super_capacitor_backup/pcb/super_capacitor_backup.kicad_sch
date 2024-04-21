@@ -2277,6 +2277,16 @@
 		)
 		(uuid "4c5c0070-80c1-4743-89cc-659211af3d15")
 	)
+	(text "Ibias = 1mA"
+		(exclude_from_sim no)
+		(at 132.08 85.09 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "5ee861de-faf6-41ed-9c30-0bb7e39c6dbd")
+	)
 	(text "Ideal Diode for Input Voltage"
 		(exclude_from_sim no)
 		(at 52.07 44.45 0)
@@ -4347,7 +4357,7 @@
 				)
 			)
 		)
-		(property "Value" "20k"
+		(property "Value" "5k"
 			(at 134.62 83.82 90)
 			(effects
 				(font
