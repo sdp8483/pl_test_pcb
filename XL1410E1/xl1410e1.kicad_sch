@@ -2955,7 +2955,7 @@
 				)
 			)
 		)
-		(property "Value" "2k"
+		(property "Value" "2k2"
 			(at 129.54 80.01 90)
 			(effects
 				(font
@@ -3291,7 +3291,7 @@
 				)
 			)
 		)
-		(property "Value" "6k2"
+		(property "Value" "6k8"
 			(at 144.78 80.01 90)
 			(effects
 				(font
