@@ -1495,6 +1495,16 @@
 		)
 		(uuid "2925c68d-9e5e-4b3c-940e-ec5caab19f22")
 	)
+	(polyline
+		(pts
+			(xy 59.69 113.03) (xy 59.69 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ae63d8e-bf47-4aac-a302-2bd4d2ee7174")
+	)
 	(wire
 		(pts
 			(xy 81.28 97.79) (xy 91.44 97.79)
@@ -1544,6 +1554,16 @@
 			(type default)
 		)
 		(uuid "4111e3e6-7a9e-45c0-b1f6-8b56fda972f3")
+	)
+	(polyline
+		(pts
+			(xy 46.99 113.03) (xy 46.99 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4afe55a8-4564-4a12-8846-80f12ecaab21")
 	)
 	(wire
 		(pts
@@ -1644,6 +1664,16 @@
 			(type default)
 		)
 		(uuid "61b36422-b218-4f6d-bd4a-0cbc27eb4b41")
+	)
+	(polyline
+		(pts
+			(xy 82.55 110.49) (xy 82.55 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6323aa9c-5c74-42f9-88c8-8e78549c7c90")
 	)
 	(wire
 		(pts
@@ -1835,6 +1865,16 @@
 		)
 		(uuid "95de8db5-c687-4f4b-946d-7d425316d27c")
 	)
+	(polyline
+		(pts
+			(xy 46.99 110.49) (xy 82.55 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "978e7d39-8fd2-4b8f-bc90-0a964a00d2dc")
+	)
 	(wire
 		(pts
 			(xy 53.34 31.75) (xy 50.8 31.75)
@@ -2005,6 +2045,16 @@
 		)
 		(uuid "d066c909-ab0a-4daf-9638-1161d4ab204a")
 	)
+	(polyline
+		(pts
+			(xy 71.12 113.03) (xy 71.12 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d562d1c2-96db-4215-883c-066726b04d09")
+	)
 	(wire
 		(pts
 			(xy 91.44 97.79) (xy 91.44 95.25)
@@ -2164,6 +2214,138 @@
 			(type default)
 		)
 		(uuid "fef9dfb5-ecd9-4c76-a0f2-4c960e30bbe5")
+	)
+	(rectangle
+		(start 46.99 113.03)
+		(end 82.55 130.81)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 1a3d1bb2-c85e-43b3-adca-86e91606aa29)
+	)
+	(text "138.5mHz"
+		(exclude_from_sim no)
+		(at 66.04 129.54 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "13580942-6713-4b0f-b7c9-8f1d04c18911")
+	)
+	(text "R2, R5, R8"
+		(exclude_from_sim no)
+		(at 53.34 125.73 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "16375dea-fdac-4b6d-94aa-30b3c7bb41ed")
+	)
+	(text "Capacitor Value Alternatives"
+		(exclude_from_sim no)
+		(at 63.5 111.76 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "1a0e8065-92b8-4c9c-bbb0-46612cb03600")
+	)
+	(text "Frequency"
+		(exclude_from_sim no)
+		(at 53.34 129.54 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "4ef47c51-108a-4443-bdbe-58a36984b21f")
+	)
+	(text "220k"
+		(exclude_from_sim no)
+		(at 77.47 125.73 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "85503ed2-f36a-442a-97f6-fdd1eeb10ba5")
+	)
+	(text "47k"
+		(exclude_from_sim no)
+		(at 77.47 120.65 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "91dc4078-3960-407d-8559-8a644b41a567")
+	)
+	(text "22uF"
+		(exclude_from_sim no)
+		(at 77.47 115.57 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "a6b395e9-f9db-4229-a7a1-d72e1fc15bb5")
+	)
+	(text "134.4mHz"
+		(exclude_from_sim no)
+		(at 77.47 129.54 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "abfde548-eaa4-478a-9ee7-dcb89570f3e6")
+	)
+	(text "10uF"
+		(exclude_from_sim no)
+		(at 66.04 115.57 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "afc50075-79c6-4f77-87f1-e11d152ea04d")
+	)
+	(text "100k"
+		(exclude_from_sim no)
+		(at 66.04 120.65 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "cb0f4ebf-ee4c-4a29-8c7e-759045bfc075")
+	)
+	(text "470k"
+		(exclude_from_sim no)
+		(at 66.04 125.73 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "d52811e7-cad1-4488-b2c6-d4c9b9cdbc46")
+	)
+	(text "R1, R4, R7"
+		(exclude_from_sim no)
+		(at 53.34 120.65 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "f125a2ee-6a87-4b7e-a8aa-3a38fc48b687")
 	)
 	(symbol
 		(lib_id "power:VCC")
