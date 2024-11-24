@@ -58,7 +58,10 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "silk_edge_clearance|120000000|106160000|b63aa94d-9b09-4983-aeff-4fe7d9cd16ac|8642df51-fcf8-4cc5-940e-7274a8da0ad4",
+        "silk_edge_clearance|120000000|93840000|b63aa94d-9b09-4983-aeff-4fe7d9cd16ac|23f1c9a3-df98-407d-8707-cbff74b0329d"
+      ],
       "meta": {
         "version": 2
       },
@@ -511,7 +514,7 @@
       "svg": "",
       "vrml": ""
     },
-    "page_layout_descr_file": ""
+    "page_layout_descr_file": "page_layout/pl_page_layout.kicad_wks"
   },
   "schematic": {
     "annotate_start_num": 0,
