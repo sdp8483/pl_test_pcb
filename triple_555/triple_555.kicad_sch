@@ -6,7 +6,8 @@
 	(paper "A")
 	(title_block
 		(title "Tripple 555")
-		(date "2024-11-22")
+		(date "2024-11-24")
+		(rev "A")
 		(company "Perry Leumas")
 		(comment 1 "Source: https://www.youtube.com/watch?v=Gr6gBjDxP5M&t=176s")
 	)
@@ -1836,7 +1837,7 @@
 	)
 	(polyline
 		(pts
-			(xy 59.69 113.03) (xy 59.69 130.81)
+			(xy 59.69 113.03) (xy 59.69 124.46)
 		)
 		(stroke
 			(width 0)
@@ -2436,7 +2437,7 @@
 	)
 	(polyline
 		(pts
-			(xy 71.12 113.03) (xy 71.12 130.81)
+			(xy 71.12 113.03) (xy 71.12 124.46)
 		)
 		(stroke
 			(width 0)
@@ -2616,7 +2617,7 @@
 	)
 	(rectangle
 		(start 46.99 113.03)
-		(end 82.55 130.81)
+		(end 82.55 124.46)
 		(stroke
 			(width 0)
 			(type default)
@@ -2626,9 +2627,19 @@
 		)
 		(uuid 1a3d1bb2-c85e-43b3-adca-86e91606aa29)
 	)
+	(text "C1, C2, C3"
+		(exclude_from_sim no)
+		(at 53.34 115.57 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "036fe8d4-bba6-4f0c-92c4-87a2ea2c6d10")
+	)
 	(text "138.5mHz"
 		(exclude_from_sim no)
-		(at 66.04 129.54 0)
+		(at 66.04 123.19 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2638,7 +2649,7 @@
 	)
 	(text "R2, R5, R8"
 		(exclude_from_sim no)
-		(at 53.34 125.73 0)
+		(at 53.34 120.65 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2658,7 +2669,7 @@
 	)
 	(text "Frequency"
 		(exclude_from_sim no)
-		(at 53.34 129.54 0)
+		(at 53.34 123.19 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2668,7 +2679,7 @@
 	)
 	(text "220k"
 		(exclude_from_sim no)
-		(at 77.47 125.73 0)
+		(at 77.47 120.65 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2678,7 +2689,7 @@
 	)
 	(text "47k"
 		(exclude_from_sim no)
-		(at 77.47 120.65 0)
+		(at 77.47 118.11 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2698,7 +2709,7 @@
 	)
 	(text "134.4mHz"
 		(exclude_from_sim no)
-		(at 77.47 129.54 0)
+		(at 77.47 123.19 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2718,7 +2729,7 @@
 	)
 	(text "100k"
 		(exclude_from_sim no)
-		(at 66.04 120.65 0)
+		(at 66.04 118.11 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2728,7 +2739,7 @@
 	)
 	(text "470k"
 		(exclude_from_sim no)
-		(at 66.04 125.73 0)
+		(at 66.04 120.65 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2738,7 +2749,7 @@
 	)
 	(text "R1, R4, R7"
 		(exclude_from_sim no)
-		(at 53.34 120.65 0)
+		(at 53.34 118.11 0)
 		(effects
 			(font
 				(size 1.27 1.27)
