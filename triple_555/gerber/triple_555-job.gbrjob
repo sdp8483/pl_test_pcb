@@ -5,13 +5,13 @@
       "Application": "Pcbnew",
       "Version": "8.0.6"
     },
-    "CreationDate": "2024-11-24T10:34:53-05:00"
+    "CreationDate": "2024-11-24T10:46:08-05:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
       "Name": "triple_555",
       "GUID": "74726970-6c65-45f3-9535-352e6b696361",
-      "Revision": "rev?"
+      "Revision": "A"
     },
     "Size": {
       "X": 51.5751,
