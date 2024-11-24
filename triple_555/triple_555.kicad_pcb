@@ -6,7 +6,14 @@
 		(thickness 1.6)
 		(legacy_teardrops no)
 	)
-	(paper "A4")
+	(paper "A")
+	(title_block
+		(title "Tripple 555")
+		(date "2024-11-24")
+		(rev "A")
+		(company "Perry Leumas")
+		(comment 1 "Source: https://www.youtube.com/watch?v=Gr6gBjDxP5M&t=176s")
+	)
 	(layers
 		(0 "F.Cu" signal)
 		(31 "B.Cu" signal)
