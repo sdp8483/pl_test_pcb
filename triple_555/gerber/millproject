@@ -29,7 +29,7 @@ isolation-width=1000mm
 zwork=-0.1000mm
 mill-feed=120mm/min
 mill-vertfeed=60mm/min
-mill-infeed=0.0500mm	# maximum z depth per pass
+mill-infeed=0.1000mm	# maximum z depth per pass
 mill-speed=13000	# spindle speed
 
 # Drilling and Milling Holes
