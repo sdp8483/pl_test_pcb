@@ -5,7 +5,7 @@
 	(uuid "75f022e8-8602-48f3-a1a3-dcf6cd792acc")
 	(paper "A")
 	(title_block
-		(title "Battery Leakage Generator - 3x 555")
+		(title "Tripple 555")
 		(date "2024-11-22")
 		(company "Perry Leumas")
 		(comment 1 "Source: https://www.youtube.com/watch?v=Gr6gBjDxP5M&t=176s")
