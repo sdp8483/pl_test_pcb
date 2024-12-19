@@ -1,0 +1,257 @@
+(Block-name: Header)
+(Block-expand: 0)
+(Block-enable: 1)
+( pcb2gcode 2.5.0 )
+( Software-independent Gcode )
+
+G94 ( Millimeters per minute feed rate. )
+G21 ( Units == Millimeters. )
+
+G90 ( Absolute coordinates. )
+(Block-name: block)
+(Block-expand: 0)
+(Block-enable: 1)
+G00 S13000 ( RPM spindle speed. )
+G01 F120.00000 ( Feedrate. )
+
+
+G00 Z15.00000 (Retract to tool change height)
+(Block-name: block)
+(Block-expand: 0)
+(Block-enable: 1)
+T1
+(M5      (Spindle stop.))
+(G04 P1.00000 (Wait for spindle to stop))
+(MSG, Change tool bit to mill diameter 0.12000mm)
+(M6      (Tool change.))
+(M0      (Temporary machine stop.))
+M3 ( Spindle on clockwise. )
+G04 P1.00000 (Wait for spindle to get up to speed)
+G04 P0 ( dwell for no time -- G64 should not smooth over this point )
+G00 Z2.00000 ( retract )
+
+G00 X-21.29750 Y-9.08248 ( rapid move to begin. )
+G01 F60.00000
+( Mill infeed pass 1/1 )
+G01 Z-0.10000
+G04 P0 ( dwell for no time -- G64 should not smooth over this point )
+G01 F120.00000
+G01 X-21.29750 Y-9.08248
+G01 X-21.29750 Y-7.20247
+G01 X-19.41752 Y-7.20247
+G04 P0 ( dwell for no time -- G64 should not smooth over this point )
+G00 Z2.00000 ( retract )
+(Block-name: block)
+(Block-expand: 0)
+(Block-enable: 1)
+
+G00 X-18.35501 Y-22.99998 ( rapid move to begin. )
+G01 F60.00000
+( Mill infeed pass 1/1 )
+G01 Z-0.10000
+G04 P0 ( dwell for no time -- G64 should not smooth over this point )
+G01 F120.00000
+G01 X-18.35501 Y-22.99998
+G01 X-18.35501 Y-24.33000
+G01 X-17.02502 Y-24.33000
+G04 P0 ( dwell for no time -- G64 should not smooth over this point )
+G00 Z2.00000 ( retract )
+(Block-name: block)
+(Block-expand: 0)
+(Block-enable: 1)
+(T3)
+(M5      (Spindle stop.))
+(G04 P1.00000 (Wait for spindle to stop))
+(MSG, Change tool bit to mill diameter 0.28571mm)
+(M6      (Tool change.))
+(M0      (Temporary machine stop.))
+(M3 ( Spindle on clockwise. ))
+G04 P1.00000 (Wait for spindle to get up to speed)
+G04 P0 ( dwell for no time -- G64 should not smooth over this point )
+G00 Z2.00000 ( retract )
+
+G00 X-12.54964 Y-16.24058 ( rapid move to begin. )
+G01 F60.00000
+( Mill infeed pass 1/1 )
+G01 Z-0.10000
+G04 P0 ( dwell for no time -- G64 should not smooth over this point )
+G01 F120.00000
+G01 X-12.54964 Y-16.24058
+G01 X-10.54964 Y-16.24058
+G01 X-10.54964 Y-15.76441
+G01 X-10.64487 Y-15.47868
+G01 X-10.83534 Y-15.28821
+G01 X-11.02582 Y-15.19296
+G01 X-11.40677 Y-15.09773
+G01 X-11.69249 Y-15.09773
+G01 X-12.07344 Y-15.19296
+G01 X-12.26391 Y-15.28821
+G01 X-12.45439 Y-15.47868
+G01 X-12.54964 Y-15.76441
+G01 X-12.54964 Y-16.24058
+G04 P0 ( dwell for no time -- G64 should not smooth over this point )
+G00 Z2.00000 ( retract )
+(Block-name: block)
+(Block-expand: 0)
+(Block-enable: 1)
+
+G00 X-12.45439 Y-19.28820 ( rapid move to begin. )
+G01 F60.00000
+( Mill infeed pass 1/1 )
+G01 Z-0.10000
+G04 P0 ( dwell for no time -- G64 should not smooth over this point )
+G01 F120.00000
+G01 X-12.45439 Y-19.28820
+G01 X-12.54964 Y-19.47868
+G01 X-12.54964 Y-19.76440
+G01 X-12.45439 Y-20.05013
+G01 X-12.26391 Y-20.24060
+G01 X-12.07344 Y-20.33582
+G01 X-11.69249 Y-20.43107
+G01 X-11.40677 Y-20.43107
+G01 X-11.02582 Y-20.33582
+G01 X-10.83534 Y-20.24060
+G01 X-10.64487 Y-20.05013
+G01 X-10.54964 Y-19.76440
+G01 X-10.54964 Y-19.57393
+G01 X-10.64487 Y-19.28820
+G01 X-10.74012 Y-19.19298
+G01 X-11.40677 Y-19.19298
+G01 X-11.40677 Y-19.57393
+G04 P0 ( dwell for no time -- G64 should not smooth over this point )
+G00 Z2.00000 ( retract )
+(Block-name: block)
+(Block-expand: 0)
+(Block-enable: 1)
+
+G00 X-10.54964 Y-18.33583 ( rapid move to begin. )
+G01 F60.00000
+( Mill infeed pass 1/1 )
+G01 Z-0.10000
+G04 P0 ( dwell for no time -- G64 should not smooth over this point )
+G01 F120.00000
+G01 X-10.54964 Y-18.33583
+G01 X-12.54964 Y-18.33583
+G01 X-10.54964 Y-17.19298
+G01 X-12.54964 Y-17.19298
+G04 P0 ( dwell for no time -- G64 should not smooth over this point )
+G00 Z2.00000 ( retract )
+(Block-name: block)
+(Block-expand: 0)
+(Block-enable: 1)
+
+G00 X-13.58964 Y-15.85963 ( rapid move to begin. )
+G01 F60.00000
+( Mill infeed pass 1/1 )
+G01 Z-0.10000
+G04 P0 ( dwell for no time -- G64 should not smooth over this point )
+G01 F120.00000
+G01 X-13.58964 Y-15.85963
+G01 X-15.58964 Y-15.85963
+G01 X-15.58964 Y-15.28821
+G01 X-15.58964 Y-16.43106
+G04 P0 ( dwell for no time -- G64 should not smooth over this point )
+G00 Z2.00000 ( retract )
+(Block-name: block)
+(Block-expand: 0)
+(Block-enable: 1)
+
+G00 X-15.58964 Y-17.09773 ( rapid move to begin. )
+G01 F60.00000
+( Mill infeed pass 1/1 )
+G01 Z-0.10000
+G04 P0 ( dwell for no time -- G64 should not smooth over this point )
+G01 F120.00000
+G01 X-15.58964 Y-17.09773
+G01 X-13.97059 Y-17.09773
+G01 X-13.78012 Y-17.19298
+G01 X-13.68487 Y-17.28821
+G01 X-13.58964 Y-17.47868
+G01 X-13.58964 Y-17.85963
+G01 X-13.68487 Y-18.05010
+G01 X-13.78012 Y-18.14535
+G01 X-13.97059 Y-18.24058
+G01 X-15.58964 Y-18.24058
+G04 P0 ( dwell for no time -- G64 should not smooth over this point )
+G00 Z2.00000 ( retract )
+(Block-name: block)
+(Block-expand: 0)
+(Block-enable: 1)
+
+G00 X-15.58964 Y-19.95487 ( rapid move to begin. )
+G01 F60.00000
+( Mill infeed pass 1/1 )
+G01 Z-0.10000
+G04 P0 ( dwell for no time -- G64 should not smooth over this point )
+G01 F120.00000
+G01 X-15.58964 Y-19.95487
+G01 X-15.58964 Y-19.57393
+G01 X-15.49439 Y-19.38345
+G01 X-15.30391 Y-19.19298
+G01 X-14.92296 Y-19.09773
+G01 X-14.25629 Y-19.09773
+G01 X-13.87534 Y-19.19298
+G01 X-13.68487 Y-19.38345
+G01 X-13.58964 Y-19.57393
+G01 X-13.58964 Y-19.95487
+G01 X-13.68487 Y-20.14535
+G01 X-13.87534 Y-20.33582
+G01 X-14.25629 Y-20.43107
+G01 X-14.92296 Y-20.43107
+G01 X-15.30391 Y-20.33582
+G01 X-15.49439 Y-20.14535
+G01 X-15.58964 Y-19.95487
+G04 P0 ( dwell for no time -- G64 should not smooth over this point )
+G00 Z2.00000 ( retract )
+(Block-name: block)
+(Block-expand: 0)
+(Block-enable: 1)
+
+G00 X-16.82012 Y-20.43107 ( rapid move to begin. )
+G01 F60.00000
+( Mill infeed pass 1/1 )
+G01 Z-0.10000
+G04 P0 ( dwell for no time -- G64 should not smooth over this point )
+G01 F120.00000
+G01 X-16.82012 Y-20.43107
+G01 X-16.72487 Y-20.33582
+G01 X-16.62964 Y-20.14535
+G01 X-16.62964 Y-19.66915
+G01 X-16.72487 Y-19.47868
+G01 X-16.82012 Y-19.38345
+G01 X-17.01059 Y-19.28820
+G01 X-17.48676 Y-19.28820
+G01 X-17.67726 Y-19.38345
+G01 X-17.77249 Y-19.47868
+G01 X-17.86774 Y-19.66915
+G01 X-17.86774 Y-20.14535
+G01 X-17.77249 Y-20.33582
+G01 X-17.67726 Y-20.43107
+G01 X-18.62964 Y-20.33582
+G01 X-18.62964 Y-19.38345
+G04 P0 ( dwell for no time -- G64 should not smooth over this point )
+G00 Z2.00000 ( retract )
+(Block-name: block)
+(Block-expand: 0)
+(Block-enable: 1)
+
+G00 X-18.62964 Y-18.71678 ( rapid move to begin. )
+G01 F60.00000
+( Mill infeed pass 1/1 )
+G01 Z-0.10000
+G04 P0 ( dwell for no time -- G64 should not smooth over this point )
+G01 F120.00000
+G01 X-18.62964 Y-18.71678
+G01 X-16.62964 Y-18.05010
+G01 X-18.62964 Y-17.38346
+
+G00 Z15.00000 (Retract to tool change height)
+(Block-name: block)
+(Block-expand: 0)
+(Block-enable: 1)
+
+M5 ( Spindle off. )
+G04 P1.000000
+M9 ( Coolant off. )
+M2 ( Program end. )
+

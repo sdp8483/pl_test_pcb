@@ -1,7 +1,7 @@
 # pcb2gcode configuration file
 
 # input files
-front=ET3111_breakout-F_Silkscreen.gbr
+front=photointerrupter_breakout-F_Silkscreen.gbr
 
 # output files
 output-dir=gcode
@@ -20,7 +20,7 @@ nog64=1			# G64 throws error on grbl
 # PCB milling
 #voronoi=1 		# generate voronoi regions
 draw-gerber-lines=1	# used for silkscreen
-x-offset=-64		# used for front silkscreen
+x-offset=-29		# used for front silkscreen
 mill-diameters=0.1mm
 isolation-width=1000mm
 zwork=-0.1000mm

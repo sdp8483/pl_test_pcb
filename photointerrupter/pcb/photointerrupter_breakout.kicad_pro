@@ -52,7 +52,16 @@
         }
       },
       "diff_pair_dimensions": [],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "lib_footprint_mismatch|145000000|93000000|93a983bb-adc9-40ad-a3a4-89a48e9e8973|00000000-0000-0000-0000-000000000000",
+        "silk_over_copper|141475000|106800000|69b10149-263b-4053-8a40-d3f38bc7d7b4|00000000-0000-0000-0000-000000000000",
+        "silk_over_copper|143961820|93596647|af69e9d9-6446-44aa-8b2a-4877cfe09dd2|00000000-0000-0000-0000-000000000000",
+        "silk_over_copper|144916509|104200000|010658d7-4da0-4056-8b46-c04762046680|00000000-0000-0000-0000-000000000000",
+        "silk_over_copper|145113491|106800000|e8ff0ab6-35c2-47e8-bdcb-cb3f1ed61d70|00000000-0000-0000-0000-000000000000",
+        "silk_overlap|144024819|92642857|af69e9d9-6446-44aa-8b2a-4877cfe09dd2|000698ae-d0bc-4f63-b4fe-dd19b97becf1",
+        "silk_overlap|144857353|92716107|af69e9d9-6446-44aa-8b2a-4877cfe09dd2|8b320296-fea8-479c-b544-eaae8b33d9e2",
+        "silk_overlap|145477500|92833333|2121cb0c-a6aa-42fc-a968-3078232cd81f|8b320296-fea8-479c-b544-eaae8b33d9e2"
+      ],
       "meta": {
         "version": 2
       },
@@ -495,7 +504,7 @@
       "svg": "",
       "vrml": ""
     },
-    "page_layout_descr_file": ""
+    "page_layout_descr_file": "page_layout/pl_page_layout.kicad_wks"
   },
   "schematic": {
     "annotate_start_num": 0,

@@ -1,0 +1,66 @@
+( pcb2gcode 2.5.0 )
+( Software-independent Gcode )
+
+( This file uses 2 drill bit sizes. )
+( Bit sizes: [0.8mm] [1mm] )
+
+G94       (Millimeters per minute feed rate.)
+G21       (Units == Millimeters.)
+G91.1     (Incremental arc distance mode.)
+G90       (Absolute coordinates.)
+G00 S13000     (RPM spindle speed.)
+
+G00 Z15.00000 (Retract)
+T1
+M5      (Spindle stop.)
+G04 P1.00000
+(MSG, Change tool bit to drill size 0.8mm)
+M6      (Tool change.)
+M0      (Temporary machine stop.)
+M3      (Spindle on clockwise.)
+G0 Z2.00000
+G04 P1.00000
+
+G1 F120.00000
+G0 X-9.58342 Y-9.31164
+G1 Z-2.50000
+G1 Z2.00000
+G0 X-9.58342 Y-11.85164
+G1 Z-2.50000
+G1 Z2.00000
+G0 X-19.58340 Y-9.31164
+G1 Z-2.50000
+G1 Z2.00000
+G0 X-19.58340 Y-11.85164
+G1 Z-2.50000
+G1 Z2.00000
+
+G00 Z15.00000 (Retract)
+T2
+M5      (Spindle stop.)
+G04 P1.00000
+(MSG, Change tool bit to drill size 1mm)
+M6      (Tool change.)
+M0      (Temporary machine stop.)
+M3      (Spindle on clockwise.)
+G0 Z2.00000
+G04 P1.00000
+
+G1 F120.00000
+G0 X-11.97610 Y-22.99970
+G1 Z-2.50000
+G1 Z2.00000
+G0 X-14.51610 Y-22.99970
+G1 Z-2.50000
+G1 Z2.00000
+G0 X-17.05610 Y-22.99970
+G1 Z-2.50000
+G1 Z2.00000
+
+G00 Z15.000 ( All done -- retract )
+
+M5      (Spindle off.)
+G04 P1.000000
+M9      (Coolant off.)
+M2      (Program end.)
+

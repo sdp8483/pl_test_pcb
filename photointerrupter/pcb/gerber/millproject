@@ -1,9 +1,9 @@
 # pcb2gcode configuration file
 
 # input files
-back=ET3111_breakout-B_Cu.gbr
-drill=ET3111_breakout.drl
-outline=ET3111_breakout-Edge_Cuts.gbr
+back=photointerrupter_breakout-B_Cu.gbr
+drill=photointerrupter_breakout.drl
+outline=photointerrupter_breakout-Edge_Cuts.gbr
 
 # output files
 output-dir=gcode
