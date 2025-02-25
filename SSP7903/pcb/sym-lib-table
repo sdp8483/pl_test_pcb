@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "pl_LDO")(type "KiCad")(uri "${KIPRJMOD}/lib_sch/pl_LDO.kicad_sym")(options "")(descr ""))
+)
