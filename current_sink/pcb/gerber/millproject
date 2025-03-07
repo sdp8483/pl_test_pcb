@@ -1,9 +1,9 @@
 # pcb2gcode configuration file
 
 # input files
-back={REPLACE_WITH_PCB_NAME}-B_Cu.gbr
-drill={REPLACE_WITH_PCB_NAME}.drl
-outline={REPLACE_WITH_PCB_NAME}-Edge_Cuts.gbr
+back=current_sink-B_Cu.gbl
+drill=current_sink.drl
+outline=current_sink-Edge_Cuts.gm1
 
 # output files
 output-dir=gcode
