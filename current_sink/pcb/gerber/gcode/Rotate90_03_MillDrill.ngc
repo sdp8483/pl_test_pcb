@@ -1,0 +1,87 @@
+(Block-name: Header)
+(Block-expand: 0)
+(Block-enable: 1)
+( pcb2gcode 2.5.0 )
+( Software-independent Gcode )
+( This file uses a mill head of 1.00000mm to drill the 1 hole sizes. )
+( Hole sizes: [3.2mm] )
+
+G94       (Millimeters per minute feed rate.)
+G21       (Units == Millimeters.)
+G91.1     (Incremental arc distance mode.)
+G90       (Absolute coordinates.)
+S13000    (RPM spindle speed.)
+
+G01 F120.00000 (Feedrate)
+(Block-name: block)
+(Block-expand: 0)
+(Block-enable: 1)
+G00 Z15.00000 (Retract to tool change height)
+T3
+M5        (Spindle stop.)
+G04 P1.00000
+(MSG, Change tool bit to drill size 1.00000mm)
+M6        (Tool change.)
+M0        (Temporary machine stop.)
+M3        (Spindle on clockwise.)
+G04 P1.00000
+G00 Z2.00000
+
+G0 X-4.5 Y3.4
+G1 Z0.50000 F60.00000
+G1 F120.00000
+G2 X-4.5 Y3.4 Z-0 I0 J1.1
+G2 X-4.5 Y3.4 Z-0.5 I0 J1.1
+G2 X-4.5 Y3.4 Z-1 I0 J1.1
+G2 X-4.5 Y3.4 Z-1.5 I0 J1.1
+G2 X-4.5 Y3.4 Z-2 I0 J1.1
+G2 X-4.5 Y3.4 Z-2.5 I0 J1.1
+G2 X-4.5 Y3.4 I0 J1.1
+G1 Z2.00000 F60.00000
+
+G0 X-4.5 Y15.8
+G1 Z0.50000 F60.00000
+G1 F120.00000
+G2 X-4.5 Y15.8 Z-0 I0 J1.1
+G2 X-4.5 Y15.8 Z-0.5 I0 J1.1
+G2 X-4.5 Y15.8 Z-1 I0 J1.1
+G2 X-4.5 Y15.8 Z-1.5 I0 J1.1
+G2 X-4.5 Y15.8 Z-2 I0 J1.1
+G2 X-4.5 Y15.8 Z-2.5 I0 J1.1
+G2 X-4.5 Y15.8 I0 J1.1
+G1 Z2.00000 F60.00000
+
+G0 X-41.4 Y3.4
+G1 Z0.50000 F60.00000
+G1 F120.00000
+G2 X-41.4 Y3.4 Z-0 I0 J1.1
+G2 X-41.4 Y3.4 Z-0.5 I0 J1.1
+G2 X-41.4 Y3.4 Z-1 I0 J1.1
+G2 X-41.4 Y3.4 Z-1.5 I0 J1.1
+G2 X-41.4 Y3.4 Z-2 I0 J1.1
+G2 X-41.4 Y3.4 Z-2.5 I0 J1.1
+G2 X-41.4 Y3.4 I0 J1.1
+G1 Z2.00000 F60.00000
+
+G0 X-41.4 Y15.8
+G1 Z0.50000 F60.00000
+G1 F120.00000
+G2 X-41.4 Y15.8 Z-0 I0 J1.1
+G2 X-41.4 Y15.8 Z-0.5 I0 J1.1
+G2 X-41.4 Y15.8 Z-1 I0 J1.1
+G2 X-41.4 Y15.8 Z-1.5 I0 J1.1
+G2 X-41.4 Y15.8 Z-2 I0 J1.1
+G2 X-41.4 Y15.8 Z-2.5 I0 J1.1
+G2 X-41.4 Y15.8 I0 J1.1
+G1 Z2.00000 F60.00000
+
+G00 Z15.000000 ( All done -- retract )
+(Block-name: block)
+(Block-expand: 0)
+(Block-enable: 1)
+
+M5      (Spindle off.)
+G04 P1.000000
+M9      (Coolant off.)
+M2      (Program end.)
+
